@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+h1{
+  margin: 0 auto;
+  font-size: 30px;
+  margin-top: 2em;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Row{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.clock-container svg{
+  font-size: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AddTodo{
+  background-color: transparent;
+  border: none;
+}
+.AddTodo:hover{
+  cursor: pointer;
+}
+.AddTodo svg{
+  font-size: 100px;
+}
+.clock-container{
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.clock-container .det{
+margin-right: 1em;
+width: max-content;
+direction: flex;
+gap: .5em;
+direction: ltr;
+}
+.clock-container .det span{
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(68, 68, 72);
+}
+.clock-container .det .Dates{
+  direction: ltr;
+}
+.TableC{
+  width: 80%;
+  margin: 0 auto;
+  direction: ltr;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.TableC table{
+  border: 20px solid black;
+  background-color: rgb(29, 29, 29);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TableC table td,
+.TableC table th{
+  color: rgb(206, 206, 206);
+}
+.highcharts-credits{
+  display: none;
 }
