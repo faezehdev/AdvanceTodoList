@@ -85,7 +85,7 @@ const GetTodoList = (todoList:Todoss)=>{
       direction:'rtl'}} 
        maxWidth={false}>
         <h1>
-          پروژه Todo List
+           Todo List App
         </h1>
       <div className="Row">
          <Clock />
